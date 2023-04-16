@@ -38,7 +38,6 @@ public class Queue {
     }
 
     public static void first(LinkedList<Integer> list) {
-        list.get(0);
         System.out.println("Возвращение первого элемента из очереди без удаления: " + list.get(0));
         System.out.println(list);
     }
